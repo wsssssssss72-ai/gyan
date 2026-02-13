@@ -24,7 +24,7 @@ app.use(cookieParser('v_secret_123_gate') as any);
 
 // CONFIGURATION
 const VPLINK_API_KEY = '64cb3994119c683652e7f241880b1f4b3dda5e37';
-const DOMAIN = 'https://venerable-moxie-9e8837.netlify.app/';
+const DOMAIN = 'https://vipgyan.vercel.app/';
 const SESSION_COOKIE_NAME = 'v_session';
 const REDIRECT_GUARD_COOKIE = 'v_redirect_allowed';
 const TOKEN_EXPIRY = 24 * 60 * 60 * 1000; // 24 hours
