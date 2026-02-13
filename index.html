@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gyanbindu - Premium Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Prevent parent scrolling to ensure iframe feel */
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+      #root {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "crypto": "https://esm.sh/crypto@^1.0.1",
+    "express": "https://esm.sh/express@^5.2.1",
+    "cookie-parser": "https://esm.sh/cookie-parser@^1.4.7",
+    "axios": "https://esm.sh/axios@^1.13.5"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
