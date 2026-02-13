@@ -3,7 +3,7 @@
  * API SERVICE LAYER
  */
 
-const DOMAIN = 'https://venerable-moxie-9e8837.netlify.app/';
+const DOMAIN = 'https://vipgyan.vercel.app/';
 
 export const ApiService = {
   checkSession: async (): Promise<boolean> => {
