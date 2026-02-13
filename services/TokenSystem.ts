@@ -89,7 +89,7 @@ export const TokenSystem = {
 
   // Get shortening redirect URL using the specific Netlify domain
   getShortenedRedirect: (token: string): string => {
-    const baseUrl = 'https://venerable-moxie-9e8837.netlify.app/';
+    const baseUrl = 'https://vipgyan.vercel.app';
     const destUrl = `${baseUrl}?view=display&token=${token}`;
     return `https://vplink.in/api?api=${API_KEY}&url=${encodeURIComponent(destUrl)}`;
   }
